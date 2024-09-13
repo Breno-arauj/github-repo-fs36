@@ -1,0 +1,62 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 60px; 
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    right: 12;
+    height: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    padding: 20px;
+
+}
+
+#fs36 {
+   
+    font-size: 36px;
+          
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
